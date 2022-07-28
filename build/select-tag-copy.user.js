@@ -12,4 +12,4 @@
 let el = document.activeElement;
 if (el.tagName !== "span") el = el.closest("SPAN");
 if (el)prompt(el.innerText, el.innerText);
-else console.log('Not actually the select tag');
+else alert('Not actually the select tag!');
