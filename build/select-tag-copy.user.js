@@ -8,6 +8,7 @@
 // @match        https://*/*
 // @grant        none
 // @run-at       context-menu
+//@updateURL https://github.com/densat98/select-tag-copy/blob/main/build/select-tag-copy.user.js
 // ==/UserScript==
 let el = document.activeElement;
 if (el.tagName !== "span") el = el.closest("SPAN");
